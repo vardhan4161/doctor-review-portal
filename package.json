@@ -2,14 +2,28 @@
   "name": "face-review-prototype",
   "private": true,
   "version": "0.0.0",
+<<<<<<< HEAD
+=======
+  "homepage": "https://sucharithajuluri.github.io/doctor-review-portal/",
+>>>>>>> b05eb52 (Initial project upload)
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.2",
+=======
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "gh-pages": "^6.3.0",
+>>>>>>> b05eb52 (Initial project upload)
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
   },
